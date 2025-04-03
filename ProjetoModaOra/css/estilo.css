@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'ModaOra';
+    src: url();
+}
+
+html{
+    width: 100%;
+}
+body{
+    padding: 1.5rem 2rem;
+    margin: 0
+}
+header{
+    background-color: #162028;
+    display: flex;
+    height: 4rem;
+}
+ul{
+    text-transform: uppercase;
+    display: flex;
+}
+li{
+    list-style-type: none;
+    color: #425564;
+    padding: 0 2rem;
+    letter-spacing: 0.3rem;
+}
+#logo{
+    color: white;
+    font-size: 2.3rem;
+    text-align: center;
+}
+#blondeModel{
+    width: 100%;
+}
+#escolhaCerta{
+    text-align: center;
+    margin-top: 2rem;
+}
+#textoEscolha{
+    width: 80%;
+    line-height: 1.7rem;
+    font-size: 1.2rem;
+    margin: 0 auto;
+}
+#tresImagens{
+    display: flex;
+    justify-content: center;
+    gap: 3rem; 
+    margin-top: 6rem; 
+}
+#romasa, #fima, #kira{
+    text-align: center;
+}
+.negrito{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#romasa p, #fima p, #kira p{
+    font-size: 1.2rem;
+}
+#detalhe{
+    margin-top: 5rem;
+    position: relative;
+
+}
+#detalhe div{
+    position: absolute;
+    display: block;
+    top: 7rem;
+    left: 7rem;
+}
+#detalhe h2{
+    /*font-family: viaoda;*/
+    /*top: 7rem;*/
+    width: 80%;
+    font-size: 3rem;
+}
+#detalhe p{
+    width: 50%;
+    /*top: 12rem;*/
+    font-size: 1.2rem;
+}
+#detalhe h2, #detalhe p{
+    /*left: 7rem;*/
+    color: white;
+}
+#detalhe img{
+    width: 100%;
+}
+footer{
+    margin-top: -4px;
+    background-color: #162028;
+    display: flex;
+    height: 4rem;
+    justify-content: center;
+}
+footer p{
+    line-height: 1.8rem;
+    letter-spacing: .25rem;
+    color: #6f8597;
+}
+h2{
+    text-transform: uppercase;
+}
